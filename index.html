@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta name="apple-mobile-web-app-capable" content="yes"/>
-  <meta name="apple-mobile-web-app-status-bar-style"content="default"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport"content="user-scalable=no, width=device-width"/>
   <meta charset="utf-8">
   <title>BusyBus</title>
@@ -11,6 +11,14 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
 </head>
 <body>
+  <nav class="status-bar">
+    <span class="menu-left">
+      <span class="signal"><i class="fas fa-signal"></i></span>
+      <span class="wifi"><i class="fas fa-wifi"></i></span></span>
+    <span class ="status-time">12:00 PM</span>
+    <span class="menu-right">
+      <span class="battery"><i class="fas fa-battery-full"></i></span></span>
+  </nav>
   <nav class="menu">
     <span class="menu-left">
       <span class="arrow"><i class="fas fa-chevron-left"></i></span></span>
@@ -97,6 +105,7 @@
             <div class="frequency-right">Resumes 6:00 AM</div>
           </div>
         </section>
+        <footer>
         <section class="bottom-bar">
           <span class="navbar">
             <span class="star-two"><i class="far fa-star"></i></span>
@@ -106,6 +115,7 @@
             <span class="reminders">Reminders</span>
             <span class="my-account">Account</span>
           </span>
-        </section>
+          </section>
+        </footer>
       </body>
       </html>
