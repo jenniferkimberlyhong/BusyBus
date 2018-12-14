@@ -1,7 +1,7 @@
 body {
   background-color: gray;
-  font-family: Roboto;
-  width: 373px;
+  font-family: "Roboto";
+  width: 375px;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -65,33 +65,37 @@ body:before{
   float: left;
   width: 25%;
   padding: 1%;
-  font-size: 14px;
+  font-size: 13px;
 }
 .column-right {
   border-sizing: border-box;
   float: right;
   width: 25%;
   padding: 1%;
-  font-size: 14px;
+  font-size: 13px;
 }
 .column-center {
   border-sizing: border-box;
   display: inline-block;
   width: 25%;
   padding: 1%;
-  font-size: 14px;
+  font-size: 13px;
 }
 .line-left {
   float: left;
   font-size: 10px;
-  width: 25%;
-  padding: 1%;
+  color: white;
+  text-align: center;
+  background-color: #FF2D55;
+  border-radius: 10px;
+  width: 8%;
+  padding: 0.5%;
 }
 .destination-center {
   display: inline-block;
   width: 25%;
   font-size: 10px;
-  padding: 1%;
+  padding-left: 20%;
 }
 .frequency-right{
   float: right;
@@ -101,14 +105,12 @@ body:before{
 }
 .content {
   text-align: center;
-  color: white;
-  background-color: #FF2D55;
-  border-radius: 10px;
-  padding: .5%;
+  background-color: #DADADA;
+  padding: 1%;
   margin-top: 2%;
-  width: 30%;
   margin-bottom: 2%;
-  font-size: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .time {
   border-bottom: 1px solid #C8C7CC;
@@ -124,13 +126,13 @@ body:before{
   text-align: center;
   padding: 0px 0px 0px 0px;
 }
-.alarm-clock {
+.star-two {
   float: left;
   width: 25%;
   padding: 1%;
   font-size: 12px;
 }
-.star-two {
+.alarm-clock {
   display: inline-block;
   width: 25%;
   padding: 1%;
