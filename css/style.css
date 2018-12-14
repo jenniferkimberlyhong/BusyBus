@@ -1,7 +1,7 @@
 body {
   background-color: gray;
   font-family: Roboto;
-  width: 70%;
+  width: 373px;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -17,15 +17,39 @@ body:before{
   background-color: white;
   height: 45px;
 }
-.topnav{
-  color: #FF2D55;
-  width: 100%;
-  text-align: center;
-}
 .map {
   background-color: white;
   width: 100%;
   height: 208px;
+}
+.arrow {
+  display: inline-block;
+  color: #FF2D55;
+  padding-left: 3%;
+  padding-bottom: 2%;
+}
+.bus{
+  display: inline-block;
+  color: #FF2D55;
+  padding-left: 20%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.text {
+  display: inline-block;
+  text-align: center;
+  color: #FF2D55;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 2%;
+}
+.star {
+  display: block;
+  float: right;
+  color: #FF2D55;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
 }
 .time {
   background-color: white;
@@ -59,21 +83,21 @@ body:before{
 }
 .line-left {
   float: left;
-  font-size: 12px;
+  font-size: 10px;
   width: 25%;
   padding: 1%;
 }
 .destination-center {
   display: inline-block;
   width: 25%;
-  font-size: 12px;
+  font-size: 10px;
   padding: 1%;
 }
 .frequency-right{
   float: right;
   width: 25%;
   padding: 1%;
-  font-size: 12px;
+  font-size: 10px;
 }
 .content {
   text-align: center;
@@ -82,41 +106,13 @@ body:before{
   border-radius: 10px;
   padding: .5%;
   margin-top: 2%;
-  width: 28%;
+  width: 30%;
   margin-bottom: 2%;
+  font-size: 15px;
 }
 .time {
   border-bottom: 1px solid #C8C7CC;
   box-sizing: border-box;
-}
-.arrow {
-  display: inline-block;
-  color: #FF2D55;
-  padding-left: 3%;
-  padding-bottom: 2%;
-}
-.bus{
-  display: inline-block;
-  color: #FF2D55;
-  padding-left: 25%;
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-.text {
-  display: inline-block;
-  text-align: center;
-  color: #FF2D55;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding-left: 2%;
-}
-.star {
-  display: block;
-  float: right;
-  color: #FF2D55;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding-right: 3%;
 }
 .navbar {
   display: inline-block;
@@ -152,7 +148,7 @@ body:before{
   padding: 1%;
   font-size: 12px;
 }
-.favorites {
+.reminders {
   display: inline-block;
   width: 25%;
   padding: 1%;
@@ -166,4 +162,16 @@ body:before{
 }
 .bottom-bar {
   background-color: #F9F8FC;
+}
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+}
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
 }
