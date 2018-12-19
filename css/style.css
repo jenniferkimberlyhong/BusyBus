@@ -1,6 +1,6 @@
 body {
   background-color: gray;
-  font-family: Roboto;
+  font-family: Helvetica;
   width: 375px;
   margin: auto;
   margin-top: 20px;
@@ -87,12 +87,14 @@ body {
 
 .time {
   background-color: white;
-  padding: 3%;
+  border-bottom: 1px solid #C8C7CC;
+  padding: 2%;
+  box-sizing: border-box;
 }
 
 .location {
   box-sizing: border-box;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .location:hover {background: #DADADA;}
@@ -126,36 +128,37 @@ body {
   color: white;
   text-align: center;
   background-color: #FF2D55;
-  border-radius: 10px;
+  border-radius: 15px;
   width: 15%;
-  padding: .5%;
+  margin-top: 1%;
+  margin-left: 3%;
+  padding: 1%;
 }
 
 .destination-center {
   font-size: 16px;
-  padding-left: 15%;
+  padding-left: 20%;
+  letter-spacing: 0.5px;
 }
 
 .frequency-right{
   width: 100%;
   padding-top: 1%;
-  padding-left: 15%;
+  padding-left: 20%;
+  padding-bottom: 1%;
   font-size: 12px;
+  letter-spacing: 0.5px;
 }
 
 .content {
-  text-align: center;
+  text-align: left;
   background-color: #DADADA;
-  padding: 1%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  padding: 1.5%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
   font-size: 14px;
   text-transform: uppercase;
-}
-
-.time {
-  border-bottom: 1px solid #C8C7CC;
-  box-sizing: border-box;
+  letter-spacing: 2px;
 }
 
 .navbar {
@@ -215,6 +218,9 @@ body {
   float: right;
   color: #FF2D55;
   font-size: 12px;
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-right: 3%;
 }
 
 .footer {
