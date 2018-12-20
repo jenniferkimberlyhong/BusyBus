@@ -8,11 +8,11 @@ body {
 }
 
 .status-bar {
-    display: block;
-    content: " ";
-    padding-top: 1%;
-    font-size: 12px;
-    background:white;
+  display: block;
+  content: " ";
+  padding-top: 1%;
+  font-size: 12px;
+  background:white;
 }
 
 .menu {
@@ -130,15 +130,16 @@ body {
   background-color: #FF2D55;
   border-radius: 15px;
   width: 15%;
-  margin-top: 1%;
-  margin-left: 3%;
-  padding: 1%;
-}
+  margin-top: 2%;
+  margin-left: -8%;
+  padding: 1.5%;
+ }
 
 .destination-center {
   font-size: 16px;
   padding-left: 20%;
   letter-spacing: 0.5px;
+  padding-top: 2%;
 }
 
 .frequency-right{
@@ -159,17 +160,6 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
-}
-
-.navbar {
-  display: inline-block;
-  position: no-repeat;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #F9F8FC;
-  color: #FF2D55;
-  text-align: center;
-  padding: 0px 0px 0px 0px;
 }
 
 .star-two {
@@ -220,15 +210,28 @@ body {
   font-size: 12px;
   margin-top: 1%;
   padding-top: 1%;
-  padding-right: 3%;
+  padding-right: 4%;
 }
 
-.footer {
+.navbar {
+  display: inline-block;
+  position: no-repeat;
+  width: 100%;
+  margin: 0 auto;
   background-color: #F9F8FC;
+  color: #FF2D55;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
 }
 
-ul {
+ul, li {
   list-style-type: none;
+}
+
+.bus-stops {
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 /* Portrait and Landscape */
