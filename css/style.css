@@ -135,6 +135,32 @@ body {
   padding: 1.5%;
  }
 
+.reroute-left {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  background-color: #FFB26B;
+  border-radius: 15px;
+  width: 15%;
+  margin-top: 2%;
+  margin-left: -8%;
+  padding: 1.5%;
+ }
+
+.oos-left {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  background-color: gray;
+  border-radius: 15px;
+  width: 15%;
+  margin-top: 2%;
+  margin-left: -8%;
+  padding: 1.5%;
+ }
+
 .destination-center {
   font-size: 16px;
   padding-left: 20%;
